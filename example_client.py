@@ -1,6 +1,10 @@
 import os
 from openai import OpenAI
 
+#import openlit
+#openlit.init(otlp_endpoint="http://127.0.0.1:4318")
+
+
 client = OpenAI(
     # This is the default and can be omitted
     api_key="not needed for a local LLM",
